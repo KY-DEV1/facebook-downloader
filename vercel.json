@@ -1,0 +1,15 @@
+{
+      "version": 2,
+        "builds": [
+            {
+                  "src": "api/fb.js",
+                        "use": "@vercel/node"
+                            }
+                              ],
+                                "routes": [
+                                    {
+                                          "src": "/api/fb",
+                                                "dest": "/api/fb.js"
+                                                    }
+                                                      ]
+                                                    }
